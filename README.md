@@ -6,7 +6,7 @@
 
 3. DEMO of Project: [![YouTube](http://img.youtube.com/vi/J2kHSSFA4NU/0.jpg)](https://www.youtube.com/watch?v=J2kHSSFA4NU)
 
-Other Replit Links:
+- Other Replit Links:
 	- [L Fernandez - VEDEZ ](https://github.com/vedez/MusicVisualiserProject)
 	- [Junhan Dang](<<Your REplit here>>)
 	
@@ -29,13 +29,6 @@ Other Replit Links:
 ### Lovely Fernandez | C20305696
 
 "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-
-## Instructions
-- Fork this repository and use it a starter project for your assignment
-- Create a new package named your student number and put all your code in this package.
-- You should start by creating a subclass of ie.tudublin.Visual
-- There is an example visualiser called MyVisual in the example package
-- Check out the WaveForm and AudioBandsVisual for examples of how to call the Processing functions from other classes that are not subclasses of PApplet
 
 # Description of the assignment
 Our team has chosen "Enemy by Imagine Dragons and JID" for our Music Visualiser Project. 
@@ -124,3 +117,9 @@ This is a table:
 |Some stuff | Some more stuff in this column |
 |Some stuff | Some more stuff in this column |
 
+## Instructions
+- Fork this repository and use it a starter project for your assignment
+- Create a new package named your student number and put all your code in this package.
+- You should start by creating a subclass of ie.tudublin.Visual
+- There is an example visualiser called MyVisual in the example package
+- Check out the WaveForm and AudioBandsVisual for examples of how to call the Processing functions from other classes that are not subclasses of PApplet
