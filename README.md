@@ -1,8 +1,23 @@
 # Music Visualiser Project
 
-Name: Keith Railey Rumbaua
+## About
+MVP Song: Enemy by Imagine Dragons and JID
+Master Replit: https://github.com/Kylreia/MusicVisualiserProject
 
-Student Number: C20463336
+DEMO of Project: [![YouTube](http://img.youtube.com/vi/J2kHSSFA4NU/0.jpg)](https://www.youtube.com/watch?v=J2kHSSFA4NU)
+
+
+Others:
+- [L Fernandez](https://github.com/vedez/MusicVisualiserProject)
+- [Junhan Dang](<<Your REplit here>>)
+
+## Team Members
+
+| Name| Student ID |
+|-----------|-----------|
+|Junhan Dang | D18123630 |
+|Keith Railey Rumbaua | C20463336 |
+|Lovely Fernandez | C20305696 |
 
 ## Instructions
 - Fork this repository and use it a starter project for your assignment
@@ -12,14 +27,41 @@ Student Number: C20463336
 - Check out the WaveForm and AudioBandsVisual for examples of how to call the Processing functions from other classes that are not subclasses of PApplet
 
 # Description of the assignment
+Our team has chosen "Enemy by Imagine Dragons and JID" for our Music Visualiser Project. 
+In order to achieve a neater and organised display - we will separate the background instrumental and voicetrack of the song into three different visualisers by using the different levels of frequencies of each element as well as using the user's default screen size as the full display of the application. 
+Art assets and the colour palette used are in relation to the song in itself. It is a song based on a TV series - Arcane - inspired from a well known e-Sport game by Riot, League of Legends. 
 
-# Instructions
+Other elements added into the application are;
+- Volume (Up and Down arrow keys)
+- Pause/Play Buttom (Spacebar key)
+- Bar Timeline in which lets the user know the length of the song and what part of the song they are in.
+- Star Visual Background (An animated background)
 
-# How it works
+
+# Instructions 
+
+(How to use Application)
+
+# How it works 
+
+(Code)
 
 # What I am most proud of in the assignment
+## Junhan Dang | D18123630
 
-# Markdown Tutorial
+"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+
+## Keith Railey Rumbaua | C20463336
+
+"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+
+## Lovely Fernandez | C20305696
+
+"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+
+
+# OTHERS
+## Markdown Tutorial
 
 This is *emphasis*
 
