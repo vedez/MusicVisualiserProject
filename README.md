@@ -1,17 +1,17 @@
 # Music Visualiser Project
 
 ## About
-MVP Song: Enemy by Imagine Dragons and JID
-Master Replit: https://github.com/Kylreia/MusicVisualiserProject
+1. MVP Song: Enemy by Imagine Dragons and JID
+2. Master Replit: https://github.com/Kylreia/MusicVisualiserProject
 
-DEMO of Project: [![YouTube](http://img.youtube.com/vi/J2kHSSFA4NU/0.jpg)](https://www.youtube.com/watch?v=J2kHSSFA4NU)
+3. DEMO of Project: [![YouTube](http://img.youtube.com/vi/J2kHSSFA4NU/0.jpg)](https://www.youtube.com/watch?v=J2kHSSFA4NU)
 
 
 Other Replit Links:
-- [L Fernandez - VEDEZ ](https://github.com/vedez/MusicVisualiserProject)
-- [Junhan Dang](<<Your REplit here>>)
+	- [L Fernandez - VEDEZ ](https://github.com/vedez/MusicVisualiserProject)
+	- [Junhan Dang](<<Your REplit here>>)
 
-## Team Members
+## Team Members and areas of this project we're proud of
 
 | Name| Student ID |
 |-----------|-----------|
@@ -19,7 +19,6 @@ Other Replit Links:
 |Keith Railey Rumbaua | C20463336 |
 |Lovely Fernandez | C20305696 |
 
-## What I am most proud of in the assignment
 ### Junhan Dang | D18123630
 
 "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
@@ -52,7 +51,7 @@ Other elements added into the application are;
 
 (Code)
 
-# OTHERS
+# Others: Structuring GitHub Read.me
 ## Markdown Tutorial
 
 This is *emphasis*
