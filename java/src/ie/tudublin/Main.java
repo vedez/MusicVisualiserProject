@@ -1,6 +1,8 @@
 package ie.tudublin;
 
 import c20463336.testvisual;
+import example.Audio1;
+import example.Audio2;
 import example.CubeVisual;
 import example.MyVisual;
 import example.RotatingAudioBands;

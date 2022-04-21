@@ -8,7 +8,7 @@
 
 - Other Replit Links:
 	- [L Fernandez - VEDEZ ](https://github.com/vedez/MusicVisualiserProject)
-	- [Junhan Dang](<<Your REplit here>>)
+	- [Junhan Dang](https://github.com/Junhan1231/MusicVisualiserProject)
 	
 ## Team Members and areas of this project we're proud of
 
