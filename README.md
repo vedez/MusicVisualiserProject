@@ -154,7 +154,7 @@ Master Replit: https://github.com/Kylreia/MusicVisualiserProject/tree/master/jav
     }    
 
 ```
-![An image](images/Visualiser.png)
+![An image](images/visualiser.png)
 ### Draw the visualizer rings
 ```JAVA
     public void draw()
