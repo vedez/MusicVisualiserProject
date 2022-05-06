@@ -20,7 +20,7 @@
 
 ### Junhan Dang | D18123630
 
-"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+"During the past month of work, thanks to the tireless efforts of myself and my team members, we have finally created an audio visualisation tool that we are happy with. Changes have been essential during this month and we have tried different versions of the audio visualisation tool before finally settling on the current one. In this project I was responsible for the design of the background stars, which moved irregularly from the right side of the screen to the left side of the screen to achieve the effect of a shooting star. After the whole job was complete, I could see that my meteor was fully integrated into our work, which made me very proud. And finally I hope you enjoy our work"
 
 ### Keith Railey Rumbaua | C20463336
 
