@@ -24,7 +24,7 @@
 
 ### Keith Railey Rumbaua | C20463336
 
-"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+"What I am most proud of is how each of our contributions came together to make this project. From the very start we all poured in ideas and gave our opinions on how we could create this project. For example, we held a fair vote on what song will be used for this visualiser. Throughout the process, we were all giving feedback on each other's work and this is how we finished the task. For this project I contributed in creating the main visualiser, which takes place in the form of rings . While the code was simple enough I think the outcome looks how we wanted it to be and I think everyone is satisfied with it. Playing around with the values was fun as I saw different possibilities with the distance between the rings and how far the reactive line that comes out of the circle can go out."
 
 ### Lovely Fernandez | C20305696
 
