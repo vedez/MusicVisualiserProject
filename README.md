@@ -1,12 +1,13 @@
 # Music Visualiser Project
 
 ## About
-1. MVP Song: Enemy by Imagine Dragons and JID
+1. MVP Song: Enemy by Imagine Dragons
 2. Master Replit: https://github.com/Kylreia/MusicVisualiserProject
 
 3. DEMO of Project: 
 
-[![YouTube](http://img.youtube.com/vi/J2kHSSFA4NU/0.jpg)](https://www.youtube.com/watch?v=J2kHSSFA4NU)
+[![YouTube](http://img.youtube.com/vi/kjs7brtzmnU/0.jpg)](https://www.youtube.com/watch?v=kjs7brtzmnU)
+[![YouTube](http://img.youtube.com/vi/_QjvC8BwLm8/0.jpg)](https://www.youtube.com/watch?v=_QjvC8BwLm8)
 
 ## Team Members and areas of this project we're proud of
 
@@ -62,7 +63,7 @@ Master Replit: https://github.com/Kylreia/MusicVisualiserProject/tree/master/jav
 
 ### Key Binds
 ```JAVA 
-    //Play Controls
+    // Play Controls
     public void keyPressed()
     {
     	//Setting SPACE as a pause and play button
@@ -79,13 +80,13 @@ Master Replit: https://github.com/Kylreia/MusicVisualiserProject/tree/master/jav
             smooth();
         }
 
-        //Setting R as a restart button
+        // Setting R as a restart button
         if (key == 'r' || key == 'R')
         {
             song.cue(0);
         }
         
-        //Setting Up and Down arrow keys as the volume buttons
+        // Setting Up and Down arrow keys as the volume buttons
         if (keyCode == UP && volume < 0) 
         {
             volume++;
@@ -101,32 +102,40 @@ Master Replit: https://github.com/Kylreia/MusicVisualiserProject/tree/master/jav
 
 ### Location and Position of img assets for Pause and Play
 ```JAVA
+    // Play-pause assets
 	public void icons() 
     {
         if (song.isPlaying())
         {
-            image(pauseIcon, width * 0.09f, height * 0.95f - 20);
+            image(pauseIcon, width * 0.10f, height * 0.95f - 20);
         }
         else {
-            image(playIcon, width * 0.09f, height * 0.95f - 20);
+            image(playIcon, width * 0.10f, height * 0.95f - 20);
         }
     }
 ```
 
 ### Timeline of the Song and Draw the line
 ```JAVA
+    // Timeline
 	public void timeline()
     {
         float maxLen = song.length();
         float currentPer = floor((song.position() / maxLen) * 100);
-        if (currentPer == 0) currentPer = 1;
+        if (currentPer == 0)
+        {
+            currentPer = 1;
+        }
+        stroke(60, 172, 212);
+        fill(60, 172, 212);
         rect(0, height-10, (currentPer / 100) * 1920, height-40);         
     }
 ```
 
 ### Volume Text
 ```JAVA
-   public void volume() 
+    // Volume
+    public void volume() 
     {
         song.setGain(volume);
         fill(255);
@@ -139,7 +148,8 @@ Master Replit: https://github.com/Kylreia/MusicVisualiserProject/tree/master/jav
 
 ### Draw the Stars
 ```JAVA
-   public void draw()
+    // Draw
+    public void draw()
     {
         for(int i = 0; i < 100; i++)
         {
@@ -157,8 +167,10 @@ Master Replit: https://github.com/Kylreia/MusicVisualiserProject/tree/master/jav
 ![An image](images/visualiser.png)
 ### Draw the visualizer rings
 ```JAVA
+    // Draw
     public void draw()
     {
+        noStroke();
         fill(0, 5);
         rect(0, 0, width, height);
         pushMatrix();
@@ -170,13 +182,13 @@ Master Replit: https://github.com/Kylreia/MusicVisualiserProject/tree/master/jav
       
             if(song.mix.get(j) * 200 > 50)
             {
-                stroke(color3, 100, 100);
+                stroke(153, 63, 196);
             }
             else 
             {
-            stroke(color4, 100, 100);
+                stroke(157, 42, 179);
             }
-            line(cos(j) * 25, sin(j) * 25, cos(j) * abs(song.left.get(j)) * 50 + cos(j) * 25, sin(j) * abs(song.right.get(j)) * 50 + sin(j) * 25);
+            line(cos(j) * 25, sin(j) * 25, cos(j) * abs(song.left.get(j)) * 75 + cos(j) * 25, sin(j) * abs(song.right.get(j)) * 75 + sin(j) * 25);
         }
 
         for(int k = 360; k > 0; k--)
@@ -184,13 +196,13 @@ Master Replit: https://github.com/Kylreia/MusicVisualiserProject/tree/master/jav
       
             if(song.mix.get(k) * 200 > 25)
             {
-                stroke(color1, 100, 100);
+                stroke(56, 34, 130);
             }
             else
             {
-                stroke(color2, 100, 100);
+                stroke(123, 48, 228);
             }
-            line(cos(k) * 100, sin(k) * 100, cos(k) * abs(song.right.get(k)) * 75 + cos(k) * 100, sin(k) * abs(song.left.get(k)) * 75 + sin(k) * 100);   
+            line(cos(k) * 100, sin(k) * 100, cos(k) * abs(song.right.get(k)) * 85 + cos(k) * 100, sin(k) * abs(song.left.get(k)) * 85 + sin(k) * 100);   
         }
 
         for(int l = 0; l < 360; l++)
@@ -198,13 +210,13 @@ Master Replit: https://github.com/Kylreia/MusicVisualiserProject/tree/master/jav
       
             if(song.mix.get(l) * 200 > 25)
             {
-                stroke(color3, 100, 100);
+                stroke(70, 45, 207);
             }
             else
             {
-                stroke(color4, 100, 100);
+                stroke(69, 61, 169);
             }
-            line(cos(l) * 175, sin(l) * 175, cos(l) * abs(song.right.get(l)) * 100 + cos(l) * 175, sin(l) * abs(song.left.get(l)) * 100 + sin(l) * 175);   
+            line(cos(l) * 175, sin(l) * 175, cos(l) * abs(song.right.get(l)) * 150 + cos(l) * 175, sin(l) * abs(song.left.get(l)) * 150 + sin(l) * 175);   
         }
   
         popMatrix();

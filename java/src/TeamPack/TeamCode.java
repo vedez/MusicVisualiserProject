@@ -25,6 +25,7 @@ public class TeamCode extends Visual {
     // Play Controls
     public void keyPressed()
     {
+        // Setting SPACE as a pause and play button
         if (key == ' ')
         {
             System.out.println(song.position());
@@ -40,11 +41,13 @@ public class TeamCode extends Visual {
             smooth();
         }
 
+        // Setting R as a restart button
         if (key == 'r' || key == 'R')
         {
             song.cue(0);
         }
 
+        // Setting Up and Down arrow keys as the volume buttons
         if (keyCode == UP && volume < 0)
         {
             volume++;
@@ -171,12 +174,10 @@ public class TeamCode extends Visual {
             if(song.mix.get(l) * 200 > 25)
             {
                 stroke(70, 45, 207);
-                // stroke(35, 40, 70);
             }
             else
             {
                 stroke(69, 61, 169);
-                // stroke(82, 97, 163);
             }
             line(cos(l) * 175, sin(l) * 175, cos(l) * abs(song.right.get(l)) * 150 + cos(l) * 175, sin(l) * abs(song.left.get(l)) * 150 + sin(l) * 175);   
         }
