@@ -20,7 +20,7 @@
 
 ### Junhan Dang | D18123630
 
-"During the past month of work, thanks to the tireless efforts of myself and my team members, we have finally created an audio visualisation tool that we are happy with. Changes have been essential during this month and we have tried different versions of the audio visualisation tool before finally settling on the current one. In this project I was responsible for the design of the background stars, which moved irregularly from the right side of the screen to the left side of the screen to achieve the effect of a shooting star. After the whole job was complete, I could see that my meteor was fully integrated into our work, which made me very proud. And finally I hope you enjoy our work"
+"During the past month of work, thanks to the tireless efforts of myself and my team members, we have finally created an audio visualisation tool that we are happy with. Changes have been essential during this month and we have tried different versions of the audio visualisation tool before finally settling on the current one. In this project I was responsible for the design of the background stars, which moved irregularly from the right side of the screen to the left side of the screen to achieve the effect of a shooting star. After the whole job was complete, I could see that my meteor was fully integrated into our work, which made me very proud. And finally I hope you enjoy our work!"
 
 ### Keith Railey Rumbaua | C20463336
 
